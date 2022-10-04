@@ -1,4 +1,4 @@
-package example;
+package example_1004;
 
 public class ArrayTest {
     public static void main(String[] args) {
