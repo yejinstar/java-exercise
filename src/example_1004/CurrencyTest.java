@@ -7,8 +7,6 @@ public class CurrencyTest {
 
         Scanner sc = new Scanner(System.in);
 
-        int [] arrCount = new int[4];
-
         System.out.print("금액 : ");
         int money = sc.nextInt();
 
