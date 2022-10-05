@@ -1,4 +1,4 @@
-package java_CodeUP;
+package java_CodeUP.day_1004;
 
 public class java_1008 {
     public static void main(String[] args) {
