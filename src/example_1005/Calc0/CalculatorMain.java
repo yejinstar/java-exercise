@@ -1,4 +1,4 @@
-package example_1005;
+package example_1005.Calc0;
 
 public class CalculatorMain {
     public static void main(String[] args) {
