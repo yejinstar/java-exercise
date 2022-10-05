@@ -9,8 +9,7 @@ public class RandomCalculator {
 
     public RandomCalculator(int a) {
         this.a = a;
-        //this.b = (int) (Math.random() * 10);
-        this.b = 0;
+        this.b = (int) (Math.random() * 10);
     }
 
     public void plus() {
