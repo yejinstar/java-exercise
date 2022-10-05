@@ -12,19 +12,19 @@ public class Calculator {
         this.b = b;
     }
 
-    public double plus() {
-        return a + b;
+    public void plus() {
+        System.out.println(a+b);
     }
 
-    public double minus() {
-        return a - b;
+    public void minus() {
+        System.out.println(a-b);
     }
 
-    public double multiple() {
-        return a * b;
+    public void multiple() {
+        System.out.println(a*b);
     }
 
-    public double divide() {
-        return (double) a / (double) b;
+    public void divide() {
+        System.out.println((double)a/b);
     }
 }
