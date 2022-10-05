@@ -2,7 +2,7 @@ package example_1005;
 
 public class CalculatorMain {
     public static void main(String[] args) {
-        Calculator calc = new Calculator(20,10);
+        Calculator calc = new Calculator(10,20);
 
         System.out.println(calc.plus());
         System.out.println(calc.minus());
