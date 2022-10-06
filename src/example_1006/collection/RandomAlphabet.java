@@ -15,6 +15,7 @@ public class RandomAlphabet {
         }
 
         System.out.println(set1);
+
         System.out.println(set1.size());
     }
 }

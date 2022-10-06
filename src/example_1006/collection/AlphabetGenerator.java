@@ -7,5 +7,6 @@ public class AlphabetGenerator implements Generator<Character> {
         int randomNum = (int) (Math.random()*26);
         char alphabet = (char) (randomNum + 65);
         return alphabet;
+
     }
 }

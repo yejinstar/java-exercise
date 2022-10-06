@@ -9,6 +9,7 @@ import java.util.Set;
 public class RandNumberWithoutDuplicated {
     public static void main(String[] args) {
         RandomNumberGenerator randomNumberGenerator = new RandomNumberGenerator();
+
         Set<Integer> set1 = new HashSet<>();
 
         for (int i = 0 ; i < 50 ; i++){

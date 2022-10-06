@@ -24,7 +24,6 @@ public class AlphabetCount {
         for (char c = 'A'; c <= 'Z'; c++) {
             alphabetCountMap.put(String.valueOf(c), 0);
         }
-
         for (int i = 0; i < repoAddr.length(); i++) {
 
             char c = repoAddr.charAt(i);

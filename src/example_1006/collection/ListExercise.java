@@ -6,6 +6,7 @@ import java.util.List;
 public class ListExercise {
     List<String> students;
 
+
     public ListExercise() {
         this.students = new ArrayList<>();
         students.add("김예진");
