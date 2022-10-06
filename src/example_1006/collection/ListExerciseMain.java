@@ -1,4 +1,4 @@
-package example_1006;
+package example_1006.collection;
 
 import java.util.List;
 

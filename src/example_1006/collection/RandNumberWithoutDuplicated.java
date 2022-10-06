@@ -1,4 +1,4 @@
-package example_1006;
+package example_1006.collection;
 
 import example_1005.Calc1.NumberGenerator;
 import example_1005.Calc1.RandomNumberGenerator;
