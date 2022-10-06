@@ -38,8 +38,6 @@ public class MapExtercise {
         map.put("노유주", "https://github.com/sujin-park0607/java-project-exercise");
         map.put("전율", "https://github.com/joypeb/java-project-push-test");
         map.put("노아린", "https://github.com/pi22-a/git_practice.git");
-        map.put("권아윤", "https://github.com/JemJem70/Algolism/tree/master/src");
-        map.put("송태서", "https://github.com/BearCrying/Git_Excercise/tree/main/src");
         map.put("정라온", "https://github.com/Bae-Ji-Won/Java-Study");
         map.put("서서한", "https://github.com/geunnseung/java_exercise_intellij_push.git");
         map.put("문주호", "https://github.com/JiMandy00/Java_LikeLion");
@@ -96,6 +94,8 @@ public class MapExtercise {
         map.put("노다율", "https://github.com/menuhwang/LikeLion");
         map.put("장우솔", "https://github.com/cvivis/git_practice2022/tree/main");
         map.put("황하준", "https://github.com/lay423/java-project");
+        map.put("권아윤", "https://github.com/JemJem70/Algolism/tree/master/src");
+        map.put("송태서", "https://github.com/BearCrying/Git_Excercise/tree/main/src");
 
 
         System.out.println(map.size());
