@@ -16,5 +16,15 @@ public class ReadFile {
         for (File file : files) {
             System.out.println(file);
         }
+
+        /* .\.git
+           .\.gitignore
+           .\.idea
+           .\a_file.txt
+           .\java_1004.iml
+           .\out
+           .\README.md
+           .\src
+        */
     }
 }
