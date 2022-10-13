@@ -1,5 +1,7 @@
 package example_1013;
 
+import java.util.Arrays;
+
 public class BubbleSortExample {
 
     public int[] sort(int[] arr) {
@@ -13,14 +15,14 @@ public class BubbleSortExample {
             }
         }
         return arr;
+
     }
 
     public static void main(String[] args) {
         BubbleSortExample bubbleSortExample = new BubbleSortExample();
         int[] arr = {7, 2, 3, 9, 28, 11};
-        int[] answer = bubbleSortExample.sort(arr);
-        for (int n : answer) {
-            System.out.print(n + " ");
-        }
+        int[] answer = bubbleSortExample.sort(arr); //한번에 sorting
+
+        System.out.println(Arrays.toString(answer));
     }
 }
