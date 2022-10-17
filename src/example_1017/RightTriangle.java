@@ -4,10 +4,18 @@ import java.util.Scanner;
 
 public class RightTriangle {
 
+    private String letter = "*";
+    public RightTriangle() {
+    }
+
+    public RightTriangle(String letter) {
+        this.letter = letter;
+    }
+
     public void printRightTriangle(int n){
         for(int i =0 ; i < n; i ++){
             for(int j = 0; j <i+1;j++ ){
-                System.out.print("* ");
+                System.out.print(this.letter + " ");
             }
             System.out.println();
         }
@@ -16,7 +24,7 @@ public class RightTriangle {
 
         Scanner sc = new Scanner(System.in);
         int input = sc.nextInt();
-        RightTriangle rightTriangle = new RightTriangle();
+        RightTriangle rightTriangle = new RightTriangle("@");
         rightTriangle.printRightTriangle(input);
     }
 }
